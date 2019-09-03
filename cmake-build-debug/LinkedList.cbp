@@ -84,6 +84,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/utec/POO2/LinkedList/LinkedList.cpp">
+			<Option target="LinkedList"/>
+		</Unit>
+		<Unit filename="/home/utec/POO2/LinkedList/LinkedList.h">
+			<Option target="LinkedList"/>
+		</Unit>
+		<Unit filename="/home/utec/POO2/LinkedList/LinkedList_Test.cpp">
+			<Option target="LinkedList"/>
+		</Unit>
 		<Unit filename="/home/utec/POO2/LinkedList/main.cpp">
 			<Option target="LinkedList"/>
 		</Unit>

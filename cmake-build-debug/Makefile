@@ -123,6 +123,60 @@ LinkedList/fast:
 	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/build
 .PHONY : LinkedList/fast
 
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+LinkedList_Test.o: LinkedList_Test.cpp.o
+
+.PHONY : LinkedList_Test.o
+
+# target to build an object file
+LinkedList_Test.cpp.o:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/LinkedList_Test.cpp.o
+.PHONY : LinkedList_Test.cpp.o
+
+LinkedList_Test.i: LinkedList_Test.cpp.i
+
+.PHONY : LinkedList_Test.i
+
+# target to preprocess a source file
+LinkedList_Test.cpp.i:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/LinkedList_Test.cpp.i
+.PHONY : LinkedList_Test.cpp.i
+
+LinkedList_Test.s: LinkedList_Test.cpp.s
+
+.PHONY : LinkedList_Test.s
+
+# target to generate assembly for a file
+LinkedList_Test.cpp.s:
+	$(MAKE) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/LinkedList_Test.cpp.s
+.PHONY : LinkedList_Test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... LinkedList"
 	@echo "... edit_cache"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
+	@echo "... LinkedList_Test.o"
+	@echo "... LinkedList_Test.i"
+	@echo "... LinkedList_Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
